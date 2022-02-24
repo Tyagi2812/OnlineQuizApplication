@@ -104,8 +104,8 @@ function startTimer(duration, display) {
   }, 1000);
   // window.location.href = "start.html";
   setTimeout(function () {
-    window.location.href = "login.html";
-  },30000);
+    window.location.href = "index.html";
+  },300004);
 }
 
 window.onload = function () {
@@ -133,7 +133,7 @@ submitBtn.addEventListener("click", () => {
                 <h2>Total number of questions: ${quiz_Data.length}</h2>
                 <h2>Marks Obtained: ${score}</h2>
                 <center>
-                <a href="login.html" >Reload</a>
+                <a href="index.html" >Reload</a>
                 </center>
                 
                 `;
